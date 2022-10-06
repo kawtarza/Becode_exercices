@@ -10,6 +10,11 @@ p{
   font-family: Arial, sans-serif;
   line-height: 26px
 }
+h4{
+  font-size: 25px;
+  font-family:'Arial Narrow Bold', sans-serif;
+  line-height: 30px
+}
 /* small */
 
 
@@ -21,14 +26,17 @@ p{
   }
 
   .small {
+    display: flex;
     flex-direction: column;
   }
 
   .medium {
+      display: flex;
       flex-direction: column;
   }
 
   .large {
+    display: flex;
     flex-direction: column;
   }
 }
